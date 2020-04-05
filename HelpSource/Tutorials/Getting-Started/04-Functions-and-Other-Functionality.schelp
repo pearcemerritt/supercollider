@@ -43,7 +43,7 @@ Now this next bit is a little bit tricky. In a given object, each emphasis::mess
 
 emphasis::Different types of objects may have methods with the same name, and thus respond to the same message in different ways.::
 
-What's interesting about this is that the actual methods may differ in what they do, but as long as they implement a method with that name, they become interchangeable in your code.
+What's interesting about this is that the actual objects may differ in what they do, but as long as they implement a method with that name, they become interchangeable in your code.
 
 A good example is 'value'. All objects in SC respond to the message 'value'. When you 'call' a method, it always 'returns' something, such as a value or a result. When you call the method 'value' on a Function it will evaluate and return the result of its last line of code. The example below will return the number 5.
 
